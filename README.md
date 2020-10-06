@@ -23,12 +23,11 @@ As funções podem ter retornos ou efeitos colaterais. Exemplos:
     
       lista = ["amelia", "julia", "diogo"]
 
-      def crescente(lista):
-  
-        for i in range(len(lista):
-  
-          if "a" not in nome[i]:
-      
-            nome.remove(nome[i])
+      def nome_com_a(lista):
+
+         for i in range(len(lista)):
+
+            if "a" not in lista[i]:
+               lista.remove(lista[i])
 
 # 
